@@ -1,17 +1,13 @@
 import React from 'react';
 import { motion, Variants } from 'framer-motion';
-import { FaReact, FaNodeJs, FaGitAlt, FaDatabase, FaGithub } from 'react-icons/fa';
-import { SiTypescript, SiJavascript, SiTableau, SiMongodb, SiMysql, SiPython, SiPowerbi } from 'react-icons/si';
+import { FaGitAlt, FaDatabase, FaGithub } from 'react-icons/fa';
+import { SiTableau, SiMongodb, SiMysql, SiPython, SiPowerbi } from 'react-icons/si';
 
 const skills = [
   { name: 'Python', icon: <SiPython className="text-blue-400" /> },
   { name: 'SQL', icon: <FaDatabase className="text-sky-500" /> },
   { name: 'Power BI', icon: <SiPowerbi className="text-yellow-400" /> },
   { name: 'Tableau', icon: <SiTableau className="text-blue-600" /> },
-  { name: 'JavaScript', icon: <SiJavascript className="text-yellow-400" /> },
-  { name: 'React', icon: <FaReact className="text-sky-400" /> },
-  { name: 'Node.js', icon: <FaNodeJs className="text-green-500" /> },
-  { name: 'TypeScript', icon: <SiTypescript className="text-blue-500" /> },
   { name: 'MongoDB', icon: <SiMongodb className="text-green-600" /> },
   { name: 'MySQL', icon: <SiMysql className="text-blue-700" /> },
   { name: 'Git', icon: <FaGitAlt className="text-red-500" /> },
