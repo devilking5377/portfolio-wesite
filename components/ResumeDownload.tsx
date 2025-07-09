@@ -4,7 +4,7 @@ const ResumeDownload: React.FC = () => {
   return (
     <div id="resume-download" style={{ textAlign: "center", margin: "2rem 0" }}>
       <a
-        href="public/Manav Resume with links.pdf"
+        href="Manav Resume with links.pdf"
         download
         style={{
           display: "inline-block",
